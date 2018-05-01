@@ -15,15 +15,15 @@ public class Response {
     public Response(OutputStream output) {
         this.output = output;
     }
-/*
-接收request
- */
+    /*
+    接收request
+     */
     public void setRequest(Request request) {
         this.request = request;
     }
-/*
-服务器回应，发送资源到浏览器
- */
+    /*
+    服务器回应，发送资源到浏览器
+     */
     public void sendStaticResource() throws IOException {
         byte[] bytes = new byte[BUFFER_SIZE];
         FileInputStream fis = null;
