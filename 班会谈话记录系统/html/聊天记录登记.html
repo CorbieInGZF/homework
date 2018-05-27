@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>聊天记录</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="../css/talkPage.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topbar">
+    <ul class="left-list">
+        <li>
+            <a href="login.html" style="border-left: 0;padding-left: 10px;">主页</a>
+        </li>
+        <li>
+            <a href="班会记录.html">班会记录主页面</a>
+        </li>
+        <li>
+            <a href="聊天记录.html">聊天记录主页面</a>
+        </li>
+        <li style="float: right;">
+            <a href="login.html">退出</a>
+        </li>
+    </ul>
+    </div>
+    <br>
+    
+    <form action="">
+    	<table align="center">
+    		<th align="center" colspan="3"><h1>聊天记录</h1></th>
+    		<tr>
+    			<td>姓名：<input type="text" name="name" id=""><br>
+    			学号：<input type="text" name="number" id=""></td>
+    			<td>时间：<input type="datetime-local" name="time" id=""></td>
+    		</tr>
+    		<tr>
+    			<td>谈话地点：<input type="text" name="talkplace" placeholder="办公室" id=""></td>
+    			<td colspan="3" align="center">谈话方式：<input type="text" name="talkstyle" placeholder="面谈" id=""></td>
+    		</tr>
+    		<tr>
+    			<td colspan="3" align="center">谈话摘要：<input type="text" name="talkabstarct" placeholder="100字以内，如：职业生涯规划、人际关系" style="width: 400px;" id=""></td>
+    		</tr>
+    		<tr>
+    			<td>谈话内容：<br><textarea name="content" id="" cols="150" rows="25" align="center" colspan="3" style="resize: none;"></textarea></td>
+    		</tr>
+    	</table>
+    </form>
+    <br>
+
+    <button class="" style="position: absolute;right: 350px">保存</button>
+    <button class="submit" value="提交" type="submit" style="position: absolute;right: 280px">提交</button>
+    
+</body>
+</html>

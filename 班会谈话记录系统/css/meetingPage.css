@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-26 16:20:27
+ * @version $Id$
+ */
+.topbar{
+    background-color: #262a2d;
+    height: 45px;
+    line-height: 35px;
+}
+.topbar ul{
+    height:45px;
+}
+.topbar ul li a{
+    margin: 0;
+    padding: 0 30px;
+    color: #A2DFE8;
+}
+.left-list{
+    float:left;
+}
+.left-list li{
+    float:left;
+}
+.left-list li a{
+    display: block;
+    border-left: 1px solid #335685;
+    height: 24px;
+    line-height: 14px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background-color: #F1F1F1;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+        tr{
+			height: 48px;
+		}
+        #btn1{
+            position: absolute;
+            right: 350px;
+        }
+        #btn2{
+            position: absolute;
+            right: 280px;
+        }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>班会记录</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="../css/meetingPage.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topbar">
+    <ul class="left-list">
+        <li>
+            <a href="login.html" style="border-left: 0;padding-left: 10px;">主页</a>
+        </li>
+        <li>
+            <a href="班会记录.html">班会记录主页面</a>
+        </li>
+        <li>
+            <a href="聊天记录.html">聊天记录主页面</a>
+        </li>
+        <li style="float: right;">
+            <a href="login.html">退出</a>
+        </li>
+    </ul>
+    </div>
+    <br>
+    
+    <form action="">
+    	<table align="center" width="">
+    		<th align="center" colspan="3"><h1>班会记录</h1></th>
+    		<tr>
+    			<td>班级：<input type="text" name="name" id="">
+    			<td>时间：<input type="datetime-local" name="" id=""></td>
+    		</tr>
+    		<tr>
+    			<td>班会地点：<input type="text" name="talkplace" placeholder="二教" id=""></td>
+    			<td colspan="3" align="center">班会形式：<input type="text" name="talkstyle" placeholder="如 团日活动" id=""></td>
+    		</tr>
+    		<tr>
+    			<td colspan="3" align="center">班会摘要：<input type="text" name="talkabstarct" placeholder="100字以内，写班会主体和摘要内容" style="width: 600px;" id=""></td>
+    		</tr>
+    		<tr>
+    			<td colspan="3" align="center">新闻链接：<input type="text" name="talkabstarct" placeholder="无 或 http://..." style="width: 600px;" id=""></td>
+    		</tr>
+    		<tr>
+    			<td>班会内容：<br><textarea id="area" name="content" id="" cols="150" rows="25" align="center" colspan="3" style="resize: none;"></textarea></td>
+    		</tr>
+    	</table>
+    </form>
+    <br>
+
+    <button id="btn1" class="save">保存</button>
+    <button id="btn2" class="submit" value="提交" type="submit">提交</button>
+    
+</body>
+</html>

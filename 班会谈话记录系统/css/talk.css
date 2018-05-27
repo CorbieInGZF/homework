@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-26 15:30:35
+ * @version $Id$
+ */
+.topbar{
+    background-color: #262a2d;
+    height: 45px;
+    line-height: 35px;
+}
+.topbar ul{
+    height:45px;
+}
+.topbar ul li a{
+    margin: 0;
+    padding: 0 30px;
+    color: #A2DFE8;
+}
+.left-list{
+    float:left;
+}
+.left-list li{
+    float:left;
+}
+.left-list li a{
+    display: block;
+    border-left: 1px solid #335685;
+    height: 24px;
+    line-height: 14px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+    body{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background-color: #F1F1F1;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    h1{
+        text-align: center;
+    }
+    #div2{
+        width: 80%;
+        height: 800px;
+        margin: 0 auto;
+        background-color: #C6C6C6;
+    }
+    #div1{
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        overflow: scroll;
+        display: block;
+        background-color: white;
+    }
+	tr{
+		height: 50px;
+	}
+    #tb td{
+        border: 1px solid;
+        height: 90px;
+        text-align: center;
+        min-width: 100px;
+    }
+    #tb #td{
+        min-width: 200px;
+    }
+    #tb{
+        width: 100%;
+        overflow: auto;
+    }
+    #tb1 td{
+        text-align: center;
+    }
+    #btn1{
+        width: 100%;
+        height: 100%;
+        background-color:white;
+        border: none;
+        cursor: pointer;
+    }
+    #in{
+        font-size: 50px;
+    }
