@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cmath>
+#include <string.h>
+using namespace std;
+
+class myComplex
+{
+ private:
+	double real;
+	double imag;
+ public:
+	myComplex();
+	myComplex(double a);
+	myComplex(double a, double b);
+	myComplex(myComplex& v);
+	double getReal();  //返回复数的实部
+	double getImaginary();  //返回复数的虚部
+	double getModulus(); //返回复数的模
+	void setReal(double r);  //设置复数的实部
+	void setImaginary(double i);  //设置复数的虚部
+	myComplex& operator=(myComplex& rhs);  //类对象的赋值     
+	myComplex& operator+=(myComplex& rhs);
+	myComplex& operator-=(myComplex& rhs);
+	myComplex& operator*=(myComplex& rhs);
+	myComplex& operator/=(myComplex& rhs);
+	friend myComplex operator+(myComplex m, myComplex n);
+	friend myComplex operator-(myComplex m, myComplex n);
+	friend myComplex operator*(myComplex m, myComplex n);
+	friend myComplex operator/(myComplex m, myComplex n);
+	friend ostream& operator<<(ostream& os, myComplex& c);
+	friend istream& operator>>(istream& is, myComplex& c);
+};
+
